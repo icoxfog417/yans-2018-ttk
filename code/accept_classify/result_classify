@@ -1,0 +1,398 @@
+Extracting feautures... DATASET=train ENCODER=w2v ALL_VOCAB=False HAND_FEATURE=True
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/lil.py:19: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _csparsetools
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:165: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._shortest_path import shortest_path, floyd_warshall, dijkstra,\
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/_validation.py:5: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._tools import csgraph_to_dense, csgraph_from_dense,\
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:167: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._traversal import breadth_first_order, depth_first_order, \
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:169: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._min_spanning_tree import minimum_spanning_tree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:170: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._reordering import reverse_cuthill_mckee, maximum_bipartite_matching, \
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/__init__.py:9: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .murmurhash import murmurhash3_32
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/linalg/basic.py:17: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._solve_toeplitz import levinson
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/linalg/__init__.py:207: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._decomp_update import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/special/__init__.py:640: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._ufuncs import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/special/_ellip_harm.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._ellip_harm_2 import _ellipsoid, _ellipsoid_norm
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/feature_extraction/hashing.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _hashing
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/interpolate/_bsplines.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _bspl
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/__init__.py:95: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .ckdtree import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/__init__.py:96: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .qhull import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/_spherical_voronoi.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _voronoi
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/distance.py:122: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _hausdorff
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/optimize/_trlib/__init__.py:1: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._trlib import TRLIBQuadraticSubproblem
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/optimize/_numdiff.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._group_columns import group_dense, group_sparse
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/stats/_continuous_distns.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _stats
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/extmath.py:24: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._logistic_sigmoid import _log_logistic_sigmoid
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/extmath.py:26: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sparsefuncs_fast import csr_row_norms
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/io/matlab/mio4.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .mio_utils import squeeze_element, chars_to_strings
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/io/matlab/mio5.py:98: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .mio5_utils import VarReader5
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/random.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._random import sample_without_replacement
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/datasets/svmlight_format.py:25: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._svmlight_format import _load_svmlight_file
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/svm/base.py:8: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import libsvm, liblinear
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/svm/base.py:9: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import libsvm_sparse
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/base.py:35: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..utils.seq_dataset import ArrayDataset, CSRDataset
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/least_angle.py:23: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..utils import arrayfuncs, as_float_array, check_X_y, deprecated
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/metrics/cluster/supervised.py:23: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .expected_mutual_info_fast import expected_mutual_information
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/metrics/pairwise.py:30: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .pairwise_fast import _chi2_kernel_fast, _sparse_manhattan
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/coordinate_descent.py:29: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import cd_fast
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/__init__.py:22: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sgd_fast import Hinge, Log, ModifiedHuber, SquaredLoss, Huber
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/sag.py:12: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sag_fast import sag
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/neighbors/__init__.py:6: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .ball_tree import BallTree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/neighbors/__init__.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .kd_tree import KDTree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/thinc/neural/train.py:3: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .optimizers import Adam, SGD, linear_decay
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/thinc/neural/train.py:3: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from .optimizers import Adam, SGD, linear_decay
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/cli/train.py:12: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..gold import GoldCorpus, minibatch
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/cli/train.py:12: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from ..gold import GoldCorpus, minibatch
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/tokens/__init__.py:1: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .doc import Doc
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/tokens/__init__.py:1: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from .doc import Doc
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/_ml.py:14: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from thinc.linear.linear import LinearModel
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/_ml.py:14: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from thinc.linear.linear import LinearModel
+Loading vector file from scratch..
+Reading reviews from... ../../data/iclr_2017/train/reviews/
+Total number of reviews 349
+Total words in corpus 1045603
+Encoding.. w2v
+Dimension:  300
+Saving vectorized ../../data/iclr_2017/train/dataset/vect_False_w2v_True.pkl
+saving features to file ../../data/iclr_2017/train/dataset/features_False_w2v_True.dat
+saved ../../data/iclr_2017/train/dataset/labels_False_w2v_True.tsv
+saved ../../data/iclr_2017/train/dataset/ids_False_w2v_True.tsv
+saved ../../data/iclr_2017/train/dataset/features.svmlite_False_w2v_True.txt
+
+Extracting feautures... DATASET=dev ENCODER=w2v ALL_VOCAB=False HAND_FEATURE=True
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/lil.py:19: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _csparsetools
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:165: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._shortest_path import shortest_path, floyd_warshall, dijkstra,\
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/_validation.py:5: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._tools import csgraph_to_dense, csgraph_from_dense,\
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:167: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._traversal import breadth_first_order, depth_first_order, \
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:169: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._min_spanning_tree import minimum_spanning_tree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:170: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._reordering import reverse_cuthill_mckee, maximum_bipartite_matching, \
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/__init__.py:9: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .murmurhash import murmurhash3_32
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/linalg/basic.py:17: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._solve_toeplitz import levinson
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/linalg/__init__.py:207: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._decomp_update import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/special/__init__.py:640: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._ufuncs import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/special/_ellip_harm.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._ellip_harm_2 import _ellipsoid, _ellipsoid_norm
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/feature_extraction/hashing.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _hashing
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/interpolate/_bsplines.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _bspl
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/__init__.py:95: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .ckdtree import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/__init__.py:96: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .qhull import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/_spherical_voronoi.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _voronoi
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/distance.py:122: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _hausdorff
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/optimize/_trlib/__init__.py:1: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._trlib import TRLIBQuadraticSubproblem
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/optimize/_numdiff.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._group_columns import group_dense, group_sparse
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/stats/_continuous_distns.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _stats
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/extmath.py:24: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._logistic_sigmoid import _log_logistic_sigmoid
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/extmath.py:26: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sparsefuncs_fast import csr_row_norms
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/io/matlab/mio4.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .mio_utils import squeeze_element, chars_to_strings
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/io/matlab/mio5.py:98: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .mio5_utils import VarReader5
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/random.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._random import sample_without_replacement
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/datasets/svmlight_format.py:25: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._svmlight_format import _load_svmlight_file
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/svm/base.py:8: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import libsvm, liblinear
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/svm/base.py:9: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import libsvm_sparse
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/base.py:35: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..utils.seq_dataset import ArrayDataset, CSRDataset
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/least_angle.py:23: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..utils import arrayfuncs, as_float_array, check_X_y, deprecated
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/metrics/cluster/supervised.py:23: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .expected_mutual_info_fast import expected_mutual_information
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/metrics/pairwise.py:30: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .pairwise_fast import _chi2_kernel_fast, _sparse_manhattan
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/coordinate_descent.py:29: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import cd_fast
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/__init__.py:22: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sgd_fast import Hinge, Log, ModifiedHuber, SquaredLoss, Huber
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/sag.py:12: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sag_fast import sag
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/neighbors/__init__.py:6: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .ball_tree import BallTree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/neighbors/__init__.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .kd_tree import KDTree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/thinc/neural/train.py:3: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .optimizers import Adam, SGD, linear_decay
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/thinc/neural/train.py:3: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from .optimizers import Adam, SGD, linear_decay
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/cli/train.py:12: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..gold import GoldCorpus, minibatch
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/cli/train.py:12: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from ..gold import GoldCorpus, minibatch
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/tokens/__init__.py:1: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .doc import Doc
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/tokens/__init__.py:1: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from .doc import Doc
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/_ml.py:14: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from thinc.linear.linear import LinearModel
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/_ml.py:14: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from thinc.linear.linear import LinearModel
+Loading vector file from... ../../data/iclr_2017/train/dataset/vect_False_w2v_True.pkl
+Reading reviews from... ../../data/iclr_2017/dev/reviews/
+Total number of reviews 40
+Total words in corpus 128375
+Encoding.. w2v
+saved ../../data/iclr_2017/dev/dataset/labels_False_w2v_True.tsv
+saved ../../data/iclr_2017/dev/dataset/ids_False_w2v_True.tsv
+saved ../../data/iclr_2017/dev/dataset/features.svmlite_False_w2v_True.txt
+
+Extracting feautures... DATASET=test ENCODER=w2v ALL_VOCAB=False HAND_FEATURE=True
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/lil.py:19: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _csparsetools
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:165: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._shortest_path import shortest_path, floyd_warshall, dijkstra,\
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/_validation.py:5: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._tools import csgraph_to_dense, csgraph_from_dense,\
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:167: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._traversal import breadth_first_order, depth_first_order, \
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:169: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._min_spanning_tree import minimum_spanning_tree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:170: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._reordering import reverse_cuthill_mckee, maximum_bipartite_matching, \
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/__init__.py:9: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .murmurhash import murmurhash3_32
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/linalg/basic.py:17: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._solve_toeplitz import levinson
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/linalg/__init__.py:207: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._decomp_update import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/special/__init__.py:640: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._ufuncs import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/special/_ellip_harm.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._ellip_harm_2 import _ellipsoid, _ellipsoid_norm
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/feature_extraction/hashing.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _hashing
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/interpolate/_bsplines.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _bspl
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/__init__.py:95: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .ckdtree import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/__init__.py:96: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .qhull import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/_spherical_voronoi.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _voronoi
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/distance.py:122: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _hausdorff
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/optimize/_trlib/__init__.py:1: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._trlib import TRLIBQuadraticSubproblem
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/optimize/_numdiff.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._group_columns import group_dense, group_sparse
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/stats/_continuous_distns.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _stats
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/extmath.py:24: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._logistic_sigmoid import _log_logistic_sigmoid
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/extmath.py:26: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sparsefuncs_fast import csr_row_norms
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/io/matlab/mio4.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .mio_utils import squeeze_element, chars_to_strings
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/io/matlab/mio5.py:98: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .mio5_utils import VarReader5
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/random.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._random import sample_without_replacement
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/datasets/svmlight_format.py:25: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._svmlight_format import _load_svmlight_file
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/svm/base.py:8: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import libsvm, liblinear
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/svm/base.py:9: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import libsvm_sparse
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/base.py:35: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..utils.seq_dataset import ArrayDataset, CSRDataset
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/least_angle.py:23: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..utils import arrayfuncs, as_float_array, check_X_y, deprecated
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/metrics/cluster/supervised.py:23: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .expected_mutual_info_fast import expected_mutual_information
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/metrics/pairwise.py:30: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .pairwise_fast import _chi2_kernel_fast, _sparse_manhattan
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/coordinate_descent.py:29: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import cd_fast
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/__init__.py:22: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sgd_fast import Hinge, Log, ModifiedHuber, SquaredLoss, Huber
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/sag.py:12: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sag_fast import sag
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/neighbors/__init__.py:6: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .ball_tree import BallTree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/neighbors/__init__.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .kd_tree import KDTree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/thinc/neural/train.py:3: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .optimizers import Adam, SGD, linear_decay
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/thinc/neural/train.py:3: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from .optimizers import Adam, SGD, linear_decay
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/cli/train.py:12: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..gold import GoldCorpus, minibatch
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/cli/train.py:12: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from ..gold import GoldCorpus, minibatch
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/tokens/__init__.py:1: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .doc import Doc
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/tokens/__init__.py:1: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from .doc import Doc
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/_ml.py:14: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from thinc.linear.linear import LinearModel
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/spacy/_ml.py:14: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  from thinc.linear.linear import LinearModel
+Loading vector file from... ../../data/iclr_2017/train/dataset/vect_False_w2v_True.pkl
+Reading reviews from... ../../data/iclr_2017/test/reviews/
+Total number of reviews 38
+Total words in corpus 114101
+Encoding.. w2v
+saved ../../data/iclr_2017/test/dataset/labels_False_w2v_True.tsv
+saved ../../data/iclr_2017/test/dataset/ids_False_w2v_True.tsv
+saved ../../data/iclr_2017/test/dataset/features.svmlite_False_w2v_True.txt
+
+run-time: 2259 s
+Classifying... test w2v False True
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/lil.py:19: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _csparsetools
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:165: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._shortest_path import shortest_path, floyd_warshall, dijkstra,\
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/_validation.py:5: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._tools import csgraph_to_dense, csgraph_from_dense,\
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:167: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._traversal import breadth_first_order, depth_first_order, \
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:169: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._min_spanning_tree import minimum_spanning_tree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:170: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._reordering import reverse_cuthill_mckee, maximum_bipartite_matching, \
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/__init__.py:9: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .murmurhash import murmurhash3_32
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/linalg/basic.py:17: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._solve_toeplitz import levinson
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/linalg/__init__.py:207: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._decomp_update import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/special/__init__.py:640: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._ufuncs import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/special/_ellip_harm.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._ellip_harm_2 import _ellipsoid, _ellipsoid_norm
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/feature_extraction/hashing.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _hashing
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/interpolate/_bsplines.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _bspl
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/__init__.py:95: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .ckdtree import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/__init__.py:96: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .qhull import *
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/_spherical_voronoi.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _voronoi
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/spatial/distance.py:122: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _hausdorff
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/optimize/_trlib/__init__.py:1: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._trlib import TRLIBQuadraticSubproblem
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/optimize/_numdiff.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._group_columns import group_dense, group_sparse
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/stats/_continuous_distns.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _stats
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/extmath.py:24: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._logistic_sigmoid import _log_logistic_sigmoid
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/extmath.py:26: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sparsefuncs_fast import csr_row_norms
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/io/matlab/mio4.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .mio_utils import squeeze_element, chars_to_strings
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/scipy/io/matlab/mio5.py:98: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .mio5_utils import VarReader5
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/utils/random.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._random import sample_without_replacement
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/datasets/svmlight_format.py:25: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._svmlight_format import _load_svmlight_file
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/metrics/cluster/supervised.py:23: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .expected_mutual_info_fast import expected_mutual_information
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/metrics/pairwise.py:30: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .pairwise_fast import _chi2_kernel_fast, _sparse_manhattan
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/base.py:35: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..utils.seq_dataset import ArrayDataset, CSRDataset
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/least_angle.py:23: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ..utils import arrayfuncs, as_float_array, check_X_y, deprecated
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/coordinate_descent.py:29: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import cd_fast
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/__init__.py:22: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sgd_fast import Hinge, Log, ModifiedHuber, SquaredLoss, Huber
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/linear_model/sag.py:12: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .sag_fast import sag
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/svm/base.py:8: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import libsvm, liblinear
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/svm/base.py:9: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import libsvm_sparse
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/neighbors/__init__.py:6: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .ball_tree import BallTree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/neighbors/__init__.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .kd_tree import KDTree
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/tree/tree.py:40: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._criterion import Criterion
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/home/satomotoki/.pyenv/versions/2.7.11/lib/python2.7/site-packages/sklearn/ensemble/gradient_boosting.py:34: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._gradient_boosting import predict_stages
+Counter({0.0: 210, 1.0: 139}) (349, 324)
+Counter({0.0: 22, 1.0: 18}) (40, 324)
+Counter({0.0: 23, 1.0: 15}) (38, 324)
+Train majority: 60.172, Dev majority: 55.0 Test majorit: 60.526
+Total number of classifiers 14
+('Best v:', 61.59006211180124, ', Best clf: ', LogisticRegression(C=0.1, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l1', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False))
+Train accuracy: 64.76 in 139 examples
+Dev accuracy: 62.50 in 18 examples
+Test accuracy: 68.42 in 15 examples
+run-time: 6 s
